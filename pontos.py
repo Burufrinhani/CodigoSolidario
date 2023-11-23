@@ -1,0 +1,3 @@
+pontosDoacoes = [("Casa do Zézinho", "Espaço de oportunidades de desenvolvimento para crianças e jovens que vivem em situação de alta vulnerabilidade social", "Rua Anália Dolácio Albino, 77 – Parque Maria Helena, SP / CEP 05854-020", "(011) 3939-0257"), ("Lalec", "Casa de Acolhimento para crianças em situação de alta vulnerabilidade e garantimos a elas seu direito a um lar, enquanto aguardam sua reintegração à sociedade", "Av. Indianópolis, 2077 – Planalto Paulista São Paulo – SP – CEP: 04063 – 004"),("Associação prato cheio")]
+
+print(pontosDoacoes)

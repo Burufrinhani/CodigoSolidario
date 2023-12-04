@@ -1,4 +1,8 @@
+from os import system
 from pontos import pontosDoacoes
+import saudacoes
+
+saudacoes.definirSaudacao()
 
 def mostrar_pontos(recurso, regiao):
     try:
@@ -7,14 +11,14 @@ def mostrar_pontos(recurso, regiao):
         for ponto in pontos_na_regiao:
             print(f"{ponto['nome']} \n{ponto['endereco']} \n{ponto['telefone']}\n")
     except KeyError:
-        print("Recurso ou região não encontrados. Por favor, verifique a entrada.")
+        print("Recurso ou região não encontrados. Por favor, verifique o número do que deseja consultar.")
 
 def main():
-    print("Escolha o recurso que deseja consultar:")
+    print("Escolha o recurso que deseja consultar:\n")
     print("1. Comida")
     print("2. Roupas e agasalhos")
     print("3. Higiene")
-    print("4. Doação de sangue")
+    print("4. Doação de sangue\n")
 
     opcaoUsuario = int(input("Digite o número do recurso desejado: "))
 
@@ -24,12 +28,16 @@ def main():
 
     opcao = list(pontosDoacoes.keys())[opcaoUsuario - 1]
 
+    system('cls')
+
     print("\nEscolha a região que deseja consultar:")
     regioes_disponiveis = list(pontosDoacoes[opcao].keys())
     for i, regiao in enumerate(regioes_disponiveis, start=1):
         print(f"{i}. {regiao}")
 
-    regiao_numero = int(input("Digite o número da região desejada: "))
+    regiao_numero = int(input("Digite o número da região: "))
+
+    system('cls')
 
     if regiao_numero < 1 or regiao_numero > len(regioes_disponiveis):
         print("Opção inválida. Saindo do programa.")

@@ -70,6 +70,26 @@ pontosDoacoes = {
             {'nome': 'Paróquia João Bosco', 'endereco': 'Rua Cerro Corá, 2.101 – Alto da Lapa', 'telefone': '(11) 3022-3334'}
            
         ],
+},
+'Doação de sangue': {
+        'Zona Sul': [
+            {'nome': 'Hospital Estadual Mário Covas', 'endereco': 'Rua Dr. Henrique Calderazzo, 321', 'telefone': '(11) 2829-5162'},
+            {'nome': 'Hemocentro Regional São Bernardo do Campo – Colsan', 'endereco': 'Rua Pedro Jacobucci, 440 – Jardim das Américas', 'telefone': '(11) 4332-3900'},
+            {'nome': 'Núcleo Regional de Hemoterapia Dr. Aguinaldo Quaresma', 'endereco': 'Rua Peri, 361 – Oswaldo Cruz', 'telefone': '(11) 4227-1083'},
+        ],
+        'Zona Norte': [
+            {'nome': 'Fundação Pró-Sangue Hemocentro de São Paulo - POSTO MANDAQUI', 'endereco': 'R. Voluntários da Pátria, 4227 - Mandaqui, São Paulo', 'telefone': '(11) 11 4573-7800'},
+            {'nome': 'Bazar Unibes', 'endereco': 'R. Voluntários da Pátria, 2286 - Santana, São Paulo - SP', 'telefone': '(11) 2950-3005'},
+        ],
+        'Zona Leste': [
+            {'nome': 'Hospital Municipal Dr. Carmino Caricchio – Tatuapé', 'endereco': 'Av. Celso Garcia, 4815 – Tatuapé', 'telefone': '(11) 2942-8094'},
+            {'nome': 'Hospital Municipal Alípio Correa Neto – Ermelino Matarazzo', 'endereco': 'A Alameda Rodrigo de Brum, 1989', 'telefone': '(11) 2545-4652'},
+            {'nome': 'Posto Stella Maris', 'endereco': 'R. Maria Cândida Pereira, 568 – Itapegica - Guarulhos', 'telefone': '(11) 4573-7800'}
+        ],
+        'Zona Oeste': [
+            {'nome': 'Posto Regional de Osasco', 'endereco': 'R. Ari Barroso, 355 - Presidente Altino – Osasco', 'telefone': '(11) 4573-7800'},
+            {'nome': 'Hospital Municipal de Barueri Dr. Francisco Moran', 'endereco': 'R. Angela Mirella, 354 Térreo - Jd. Barueri - Barueri', 'telefone': '(11) 25753200'}
+        ],
 }
 
 }
